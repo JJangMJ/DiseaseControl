@@ -14,7 +14,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        action()
     }
-    //test
+
+    private fun action() {
+
+    }
 
 }
